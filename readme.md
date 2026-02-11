@@ -6,17 +6,7 @@ But how do we teach a computer to do the same?
 
 ![example1](example1.png)
 
-In this Web App you can try the emotion recognition for a few different neural network models.
-
-There are three modes available:
-
-1. Recognize photo
-2. Recognize video
-3. Recognize live (from camera)
-
-![example1](example2.png)
-
-![example1](example3.png)
+_This is the repository for the Jupyter Notebook. If you're looking for the source code of the Web App, check out [https://github.com/MaksymShcherbak/emotion_recognition_web](https://github.com/MaksymShcherbak/emotion_recognition_web)_
 
 This was my **Bachelor's Degree** project at university.
 
@@ -24,8 +14,14 @@ This was my **Bachelor's Degree** project at university.
 
 - 🐍 [Python](https://www.python.org/) as the most popular Programming language in the ML field.
 - ⚡ [Keras/TensorFlow](https://keras.io/) Framework for building and training deep learning models.
-- 🥤 [Flask](https://flask.palletsprojects.com/en/stable/) Framework for creating a full-stack web application.
-- 🌎 [React](https://react.dev/) for creating the web client.
+
+## Models
+
+There are three models described in the Notebook:
+
+- Dense
+- CNN
+- MobileNetV2
 
 ## Setting Up the Environment
 
@@ -55,24 +51,4 @@ setx PYTHONNOUSERSITE 1
 
 ## Training the Models
 
-The models come pre-trained, so this step is completely optional.
-
-If you want to train the models yourself, execute the `semotion_recognition.ipynb` notebook.
-
-## Running the Application
-
-Server:
-
-```bat
-cd server
-python main.py
-```
-
-Client:
-
-```bat
-cd client
-npm run dev
-```
-
-The project will be accessible at `http://localhost:3000`.
+Execute the `emotion_recognition.ipynb` Notebook to train the models.
